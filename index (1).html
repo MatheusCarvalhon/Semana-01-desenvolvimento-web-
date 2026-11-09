@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Engenharia de Software & Design</title>
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Desenvolvimento & UX</h1>
+        <nav>
+            <a href="https://github.com/MatheusCarvalhon">Meu Github,</a>
+            <a href="https://www.linkedin.com/in/matheus-7005a73b3/"> Linkedin, </a>
+            <a href="https://www.extranet.ceuma.br/hotsite/">Instituição Ceuma</a>
+        </nav>
+    </header>
+
+    <main id="artigos">
+        
+        <article>
+            <h2>A Importância do UX/UI no Front-end</h2>
+            <p>Criar interfaces responsivas e agradáveis vai além de escrever HTML e CSS. Com o uso de ferramentas como Figma para prototipagem de alta fidelidade, podemos garantir que a experiência do usuário (UX) guie todo o processo de desenvolvimento web.</p>
+            <img src="Ceuma1.jpg" alt="" height="380">
+        </article>
+
+        <article>
+            <h2>Engenharia de Software e Lógica de Programação</h2>
+            <p>Para construir sistemas robustos, resolver problemas lógicos é fundamental. Praticar com linguagens como Python e resolver desafios em plataformas de programação competitiva fortalece a capacidade de estruturar condições, laços de repetição e arquiteturas modulares.</p>
+            <img src="SpaceHub.webp" alt="" height="380">
+        </article>
+
+    </main>
+
+    <aside>
+        <h2>Inscreva-se na Newsletter</h2>
+        <form action="#" method="get">
+            
+            <div>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" minlength="3" required placeholder="Ex: Maria Silva">
+            </div>
+            <br>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            </div>
+            <br>
+
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="18" max="120" required placeholder="Sua idade">
+            </div>
+            <br>
+
+            <div>
+                <label for="assunto">Assunto de interesse:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione uma opção...</option>
+                    <option value="front-end">Desenvolvimento Front-end</option>
+                    <option value="ux_ui">Design de UX/UI</option>
+                    <option value="back-end">Engenharia e Lógica</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Aceito os termos e condições</label>
+            </div>
+            <br>
+
+            <button type="submit">Enviar Inscrição</button>
+        </form>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 Matheus de Carvalho, blog de desenvolvimento. Desenvolvido por mim com HTML5 Semântico.😎</p>
+    </footer>
+
+</body>
+</html>
